@@ -1,0 +1,40 @@
+{
+  "name": "google-play-url-builder",
+  "version": "0.0.0-development",
+  "description": "Google Play URL builder.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "mocha"
+  },
+  "repository": "mxl/google-play-url-builder",
+  "keywords": [
+    "google",
+    "play",
+    "store",
+    "url",
+    "builder"
+  ],
+  "author": {
+    "name": "Michael Ledin",
+    "email": "michael@ledin.me",
+    "url": "https://github.com/mxl"
+  },
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxl/google-play-url-builder/issues"
+  },
+  "homepage": "https://github.com/mxl/google-play-url-builder#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.8.1",
+    "semantic-release-cli": "^4.0.6"
+  }
+}
