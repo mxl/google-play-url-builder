@@ -12,7 +12,7 @@ function prefixKeys(o, prefix) {
   return r;
 }
 
-module.exports = function (id, utm = null) {
+export default function (id, utm = null) {
   const params = {
     id: id
   };
@@ -23,4 +23,4 @@ module.exports = function (id, utm = null) {
     params.referrer = queryString(prefixKeys(utm, 'utm_'));
   }
   return 'https://play.google.com/store/apps/details?' + queryString(params);
-};
+}

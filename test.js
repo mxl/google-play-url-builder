@@ -1,6 +1,6 @@
 const
   assert = require('assert'),
-  googlePlayUrlBuilder = require('./'),
+  googlePlayUrlBuilder = require('./dist/index').default,
   id = 'com.example.app';
 
 describe('Google Play URL builder', function () {
